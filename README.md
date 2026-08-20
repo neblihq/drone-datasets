@@ -17,7 +17,21 @@ ran it through. Dead links and datasets nobody here has actually opened do not g
 
 ## Photogrammetry Image Sets
 
-*First entries in testing.*
+- **[Sheffield Cross](https://github.com/pierotofy/drone_dataset_sheffield_cross)** —
+  172 geotagged JPGs (4000×3000, DJI Phantom 3 Professional) from a single 22-minute
+  flight at 62 m AGL over Sheffield Cross, Palm Harbor, Florida (April 2018), plus a GCP
+  file (3 surveyed points measured across 24 images, UTM 17N). ~889 MB. All 172 images
+  verified intact.
+  - License, verbatim from the repo's
+    [LICENSE](https://github.com/pierotofy/drone_dataset_sheffield_cross/blob/master/LICENSE):
+    "This is free and unencumbered software released into the public domain." (The Unlicense)
+  - Tested 2026-08-20 with
+    [orthomosaic-processing](https://github.com/neblihq/drone-skills/tree/main/orthomosaic-processing)
+    (OpenDroneMap via Docker, `opendronemap/odm:gpu` with `--dsm`): 172/172 images
+    reconstructed in 11m36s on an RTX 5080 workstation. Outputs: orthomosaic GeoTIFF
+    5040×4123 at 5.0 cm/px (WGS 84 / UTM 17N), DSM GeoTIFF, 126 MB georeferenced .laz
+    point cloud, and a textured mesh. Working directory grew from 849 MB to 13 GB during
+    processing. The GCP file was not used in this run.
 
 ## Orthomosaics and Mapping
 
