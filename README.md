@@ -1,12 +1,12 @@
-# Awesome Drone Datasets [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Drone Datasets
 
-A curated list of public datasets for drone workflows: raw photogrammetry image sets,
+Public datasets for drone workflows, curated and tested: raw photogrammetry image sets,
 aerial imagery, LiDAR and point clouds, and detection benchmarks. Every dataset here can
 be processed with the skills in [drone-skills](https://github.com/neblihq/drone-skills).
 
-**The bar for this list: we downloaded it and processed it ourselves.** Every entry states
-what it contains, how big it is, its license as the source states it, and what we ran it
-through. Dead links and datasets nobody here has actually opened do not get listed.
+**The bar for this catalog: we downloaded it and processed it ourselves.** Every entry
+states what it contains, how big it is, its license as the source states it, and what we
+ran it through. Dead links and datasets nobody here has actually opened do not get listed.
 
 ## Contents
 
@@ -39,8 +39,8 @@ it with. Links only; this repo never rehosts data.
 
 ## Related
 
-- [awesome-drone-ai](https://github.com/neblihq/awesome-drone-ai): AI skills, agents, and
-  workflows for drone pilots.
+- [awesome-drone-ai](https://github.com/neblihq/awesome-drone-ai): a curated list of AI
+  skills, agents, and workflows for drone pilots.
 - [drone-skills](https://github.com/neblihq/drone-skills): Claude skills these datasets
   can be processed with.
 
