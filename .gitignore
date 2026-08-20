@@ -13,3 +13,7 @@ CLAUDE.md
 *.las
 *.tif
 *.tiff
+
+# Agent scratch, never published
+notes/
+analysis/
